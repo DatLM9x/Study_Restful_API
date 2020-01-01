@@ -1,0 +1,199 @@
+#server:
+#  host: 
+#  port: 
+#  user: 
+#  password: 
+
+path:
+  fbk: E:\\testfile
+  fbkbackup: E:\\testfile\\Complete
+  fbksend: E:\\testfile\\Send
+  file:
+    type: .dat
+    header_snd: fbk_snd
+    header_vir: fbk_vir
+    header_awa: fbk_awa
+
+rv001:
+  length:
+    coNo: 9
+    mgscd: 5
+    recMsgcd: 5
+    tmsDt: 8
+    tmsTm: 6
+    msgDscd: 1
+    trnDt: 8
+    trnTm: 6
+    msgNo: 7
+    wdracNo: 25
+    wdrViracNo: 25
+    rcvacNo: 25
+    rcvViracNo: 25
+    rcvacDppeNm: 69
+    curCd: 3
+    wdrAm: 23
+    tobkDscd: 1
+    istDscd: 1
+    inCdAccGb: 1
+    rcvbk1Cd: 8
+    rcvbk2Cd: 8
+    regModCd: 1
+    trnStat: 5
+    trnSrno: 7
+    refNo: 100
+    vractCusNm: 200
+    stsDscd: 2
+
+rv002:
+  length:
+    coNo: 9
+    aplDscd: 5
+    msgDscd: 1
+    outActNo: 25
+    virActNo: 25
+    virAcNm: 200
+    refNo: 100
+    recCodCd: 2
+    trnAm: 23
+    trnAvlSdt: 8
+    trnAvlEdt: 8
+    trnAvlStm: 6
+    trnAvlEtm: 6
+    trnAvlyn: 1
+    corpRecCompCode: 9
+    filler: 46
+
+ht002:
+  length:
+    tmsDt: 8
+    tmsTm: 6
+    coNo: 9
+    mgscd: 5
+    msgDscd: 1
+    actNo: 25
+    trnDt: 8
+    trnTm: 6
+    drCr: 1
+    trnAmt: 23
+    trnAfBl: 23
+    brCd: 3
+    chkAmt: 23
+    trnType: 2
+    particular: 210
+    depSeq: 7
+    status: 2
+    channelType: 2
+    trnSrno: 16
+    destAccount: 25
+    recieveName: 69
+    refTxt: 210
+    depRmk: 210
+    trmPrcSrno: 7
+    virActNo: 25
+
+er001:
+  length:
+    tmsDt: 8
+    tmsTm: 6
+    mgscd: 5
+    other: 21
+    msgDscd: 1
+    noticeDt: 8
+    noticeCnt: 1
+    fromCcy: 3
+    toCcy: 3
+    baseRate: 23
+    cashBuying: 23
+    cashSelling: 23
+    ttBuying: 23
+    ttSelling: 23
+    orderDscd: 2
+    status: 5
+    filler: 583
+
+pr001:
+  length:
+    coNo: 9
+    mgscd: 5
+    recMsgcd: 5
+    tmsDt: 8
+    tmsTm: 6
+    etc: 16
+    msgDscd: 1
+    trnDt: 8
+    trnTm: 6
+    msgNo: 7
+    wdracNo: 25
+    wdrViracNo: 25
+    rcvacNo: 25
+    rcvViracNo: 25
+    rcvacDppeNm: 69
+    curCd: 3
+    wdrAm: 23
+    tobkDscd: 1
+    istDscd: 1
+    inCdAccGb: 1
+    rcvbk1Cd: 8
+    rcvbk2Cd: 8
+    regModCd: 1
+    trnStat: 5
+    norTranCnt: 9
+    norTranTotAmt: 23
+    canTranCnt: 9
+    canTranTotAmt: 23
+    procTranTotCnt: 9
+    procTransTotAmt: 23
+
+vlr001:
+  length:
+    tmsDt: 8
+    tmsTm: 6
+    coNo: 9
+    outActNo: 25
+    dataCnt: 8
+    etc: 16
+    msgDscd: 1
+    virActNo: 25
+    aplDscd: 5
+    vractCusNm: 200
+    trnAm: 23
+    irTrnYn: 1
+    lmtAmOvYn: 1
+    lmtAmBlwYn: 1
+    dupRcvPrhbYn: 1
+    moacrvAvlYn: 1
+    trnAvlSdt: 8
+    trnAvlEdt: 8
+    trnAvlStm: 6
+    trnAvlEtm: 6
+    rgsTrnDt: 8
+    docNo: 50
+    stsDscd: 2
+    filler: 424
+    lineFlag: 1
+
+ra001:
+  length:
+    tmsDt: 8
+    tmsTm: 6
+    coNo: 9
+    ActNo: 25
+    dataCnt: 8
+    etcAr: 16
+    msgDscd: 1
+    wdrActNo: 25
+    aplDscd: 5
+    msgTrno: 50
+    trnStDt: 8
+    trnClsDt: 8
+    trnType: 5
+    status: 5
+    curCd: 3
+    rcpAm: 23
+    rcpCnt: 5
+    outParticular: 210
+    inParticular: 210
+    cus_id_no_cd: 2
+    cus_id_no: 50
+    isuDt: 8
+    vld_edt: 8 
